@@ -9,6 +9,10 @@ body {
 }
 ul {
     list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
 }
 .logo-webstudio {
     font-family: 'Raleway';
@@ -21,10 +25,28 @@ ul {
     text-decoration: none;
 }
 .header-epc {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal; 
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
+}
+.header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+.header-epc:hover {
+    color: #2196F3;
+    text-decoration: none;
+}
+.header-contacts:hover {
+    color: #2196F3;
     text-decoration: none;
 }
