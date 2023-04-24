@@ -4,49 +4,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@1,100&display=swap');
 body {
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 ul {
-    list-style: none;
-    text-decoration: none;
-}
-a {
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 .logo-webstudio {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
 }
-.header-epc {
-    font-family: 'Roboto';
-    font-style: normal; 
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
+.link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
 }
-.header-contacts {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    text-decoration: none;
+.link2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
 }
-.header-epc:hover {
-    color: #2196F3;
-    text-decoration: none;
+.link:hover {
+  color: #2196f3;
+  text-decoration: none;
 }
-.header-contacts:hover {
-    color: #2196F3;
-    text-decoration: none;
+/* TODO: Hace falta el active, para que quede azul cuando se esta en la pagina 
+.header-epc .link:active {
+    color: #2196F3; 
+} */
+.link2:hover {
+  color: #2196f3;
+  text-decoration: none;
 }
+.main-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.buttonsp {
+  background-color: #f5f4fa;
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.buttonsp:hover,
+.buttonsp:active {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+
