@@ -46,9 +46,12 @@ ul {
   text-decoration: none;
 }
 /* TODO: Hace falta el active, para que quede azul cuando se esta en la pagina 
-.header-epc .link:active {
-    color: #2196F3; 
+.link:active {
+    color: #2196F3;
 } */
+.link:active {
+    color: #2196F3;
+}
 .link2:hover {
   color: #2196f3;
   text-decoration: none;
